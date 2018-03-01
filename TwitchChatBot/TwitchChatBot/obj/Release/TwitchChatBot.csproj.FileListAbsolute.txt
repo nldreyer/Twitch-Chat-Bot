@@ -1,0 +1,13 @@
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Release\TwitchChatBot.exe.config
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Release\TwitchChatBot.exe.manifest
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Release\TwitchChatBot.application
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Release\TwitchChatBot.exe
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Release\TwitchChatBot.pdb
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.uxMainForm.resources
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.Properties.Resources.resources
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.csproj.GenerateResource.Cache
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.exe.manifest
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.application
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.exe
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.pdb
+C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Release\TwitchChatBot.csprojResolveAssemblyReference.cache
