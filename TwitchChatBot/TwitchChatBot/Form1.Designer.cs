@@ -101,6 +101,7 @@
             this.MaximizeBox = false;
             this.Name = "uxMainForm";
             this.Text = "Twitch Chat Bot";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.uxMainForm_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

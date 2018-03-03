@@ -58,7 +58,7 @@ namespace TwitchChatBot
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string[] messages = { "gg", "lol", "BibleThump", "Kappa", "PogChamp", "LUL", "nice", "FrankerZ", "OhMyDog", "FailFish", "DansGame" };
+            string[] messages = { "OWLGLA GO GLADIATORS OWLGLA", "OWLPHI GO FUSION OWLPHI", "OWLOrisa OWLOrisa OWLOrisa", "OWLHanzo OWLHanzo OWLHanzo", "OWLDVa OWLDVa OWLDVa", "LUL", "nice", "FrankerZ", "OhMyDog", "FailFish", "DansGame" };
 
             Random message = new Random();
 
@@ -79,8 +79,15 @@ namespace TwitchChatBot
 
         private static void OnTimedEvent2(Object source, System.Timers.ElapsedEventArgs e)
         {
-            time++;
-            uxTimerBox.Text = "Time Elapsed: " + Convert.ToString(time);
+            if (t.Enabled)
+            {
+                time++;
+                uxTimerBox.Text = "Time Elapsed: " + Convert.ToString(time);
+            }
+            else
+            {
+                time = 0;
+            }
         }
 
         private void uxOutputText_CheckedChanged(object sender, EventArgs e)
@@ -134,6 +141,14 @@ namespace TwitchChatBot
             uxSendMessage.Text = "Send Message";
 
             uxSendMessage.Enabled = true;
+        }
+
+        private void uxMainForm_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            t.Stop();
+            t2.Stop();
+            t.Enabled = false;
+            t2.Enabled = false;
         }
     }
 
