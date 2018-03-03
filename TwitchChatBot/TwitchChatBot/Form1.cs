@@ -58,7 +58,7 @@ namespace TwitchChatBot
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string[] messages = { "OWLGLA GO GLADIATORS OWLGLA", "OWLPHI GO FUSION OWLPHI", "OWLOrisa OWLOrisa OWLOrisa", "OWLHanzo OWLHanzo OWLHanzo", "OWLDVa OWLDVa OWLDVa", "LUL", "nice", "FrankerZ", "OhMyDog", "FailFish", "DansGame" };
+            string[] messages = { "gg", "lol", "BibleThump", "Kappa", "PogChamp", "LUL", "nice", "FrankerZ", "OhMyDog", "FailFish", "DansGame" };
 
             Random message = new Random();
 
