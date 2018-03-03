@@ -25,9 +25,22 @@ namespace TwitchChatBot
 
         private static TextBox uxTimerBox;
 
+        static string[] _heroes = { "OWLAna OWLAna OWLAna", "OWLBastion OWLBastion OWLBastion", "OWLDVa OWLDVa OWLDVa", "OWLDoomfist OWLDoomfist OWLDoomfist", "OWLGenji OWLGenji OWLGenji",
+                                  "OWLHanzo OWLHanzo OWLHanzo", "OWLJunkrat OWLJunkrat OWLJunkrat", "OWLLucio OWLLucio OWLLucio", "OWLMcCree OWLMcCree OWLMcCree", "OWLMei OWLMei OWLMei",
+                                  "OWLMercy OWLMercy OWLMercy", "OWLMoira OWLMoira OWLMoira", "OWLOrisa OWLOrisa OWLOrisa", "OWLPharah OWLPharah OWLPharah", "OWLReaper OWLReaper OWLReaper",
+                                  "OWLReinhardt OWLReinhardt OWLReinhardt", "OWLRoadhog OWLRoadhog OWLRoadhog", "OWLSoldier76 OWLSoldier76 OWLSoldier76", "OWLSombra OWLSombra OWLSombra",
+                                  "OWLSymmetra OWLSymmetra OWLSymmetra", "OWLTorbjorn OWLTorbjorn OWLTorbjorn", "OWLTracer OWLTracer OWLTracer", "OWLWidowmaker OWLWidowmaker OWLWidowmaker",
+                                  "OWLWinston OWLWinston OWLWinston", "OWLZarya OWLZarya OWLZarya", "OWLZenyatta OWLZenyatta OWLZenyatta" };
+
+        static string[] _teams = { "OWLBOS BOSTON UP OWLBOS", "OWLDAL BURN BLUE OWLDAL", "OWLHOU GREEN WALL OWLHOU", "OWLFLA BRING THE MAYHEM OWLFLA", "OWLGLA SHIELDS UP OWLGLA", "OWLLDN ACES HIGH OWLLDN",
+                               "OWLNYE EXCELSIOR OWLNYE", "OWLPHI PDOMJNATE OWLPHI", "OWLSEO FLETA THE META OWLSEO", "OWLSFS SHOCKING OWLSFS", "OWLSHD FIGHTING FOR GLORY OWLSHD",
+                               "OWLVAL WINGS OUT OWLVAL" };
+
         public uxMainForm()
         {
             InitializeComponent();
+
+            InitializeImageLists();
 
             t = new System.Timers.Timer();
 
@@ -58,7 +71,7 @@ namespace TwitchChatBot
 
         private static void OnTimedEvent(Object source, System.Timers.ElapsedEventArgs e)
         {
-            string[] messages = { "gg", "lol", "BibleThump", "Kappa", "PogChamp", "LUL", "nice", "FrankerZ", "OhMyDog", "FailFish", "DansGame" };
+            string[] messages = GetEmoteList();
 
             Random message = new Random();
 
@@ -149,6 +162,50 @@ namespace TwitchChatBot
             t2.Stop();
             t.Enabled = false;
             t2.Enabled = false;
+        }
+
+        private static string[] GetEmoteList()
+        {
+            string[] messageList = new string[38];
+
+            foreach (string s in _heroes)
+            {
+
+            }
+
+            return messageList;
+        }
+
+        private static void InitializeImageLists()
+        {
+            ImageList heroes = new ImageList();
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLAna.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLBastion.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLDoomfist.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLDVa.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLGenji.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLHanzo.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLJunkrat.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLLucio.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLMcCree.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLMei.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLMercy.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLMoira.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLOrisa.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLPharah.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLReaper.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLReinhardt.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLRoadhog.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLSoldier76.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLSombra.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLSymmetra.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLTorbjorn.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLTracer.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLWidowmaker.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLWinston.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLZarya.png"));
+            heroes.Images.Add(Image.FromFile("TwitchChatBot/TwitchChatBot/Resources/Character_Images/OWLZenyatta.png"));
+            ImageList teams = new ImageList();
         }
     }
 
