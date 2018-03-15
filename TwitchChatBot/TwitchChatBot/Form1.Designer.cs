@@ -28,12 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Boston Uprising");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Teams", new System.Windows.Forms.TreeNode[] {
+            treeNode1});
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(uxMainForm));
             this.uxOutputText = new System.Windows.Forms.CheckBox();
             this.uxIntervalBox = new System.Windows.Forms.TextBox();
             this.uxMessage = new System.Windows.Forms.TextBox();
             this.uxTimer = new System.Windows.Forms.TextBox();
             this.uxSendMessage = new System.Windows.Forms.Button();
+            this.uxTeamsListBox = new System.Windows.Forms.CheckedListBox();
+            this.uxCharactersListBox = new System.Windows.Forms.CheckedListBox();
+            this.treeView1 = new System.Windows.Forms.TreeView();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // uxOutputText
@@ -86,11 +93,71 @@
             this.uxSendMessage.UseVisualStyleBackColor = true;
             this.uxSendMessage.Click += new System.EventHandler(this.uxSendMessage_Click);
             // 
+            // uxTeamsListBox
+            // 
+            this.uxTeamsListBox.FormattingEnabled = true;
+            this.uxTeamsListBox.Items.AddRange(new object[] {
+            "Boston Uprising",
+            "Dallas Fuel",
+            "Florida Mayhem",
+            "Los Angeles Gladiators",
+            "Houston Outlaws",
+            "London Spitfire",
+            "New York Excelsior",
+            "Philadelphia Fusion",
+            "Seoul Dynasty",
+            "San Francisco Shoch",
+            "Shanghai Dragons",
+            "Los Angeles Valiant"});
+            this.uxTeamsListBox.Location = new System.Drawing.Point(253, 12);
+            this.uxTeamsListBox.Name = "uxTeamsListBox";
+            this.uxTeamsListBox.Size = new System.Drawing.Size(178, 199);
+            this.uxTeamsListBox.TabIndex = 5;
+            // 
+            // uxCharactersListBox
+            // 
+            this.uxCharactersListBox.FormattingEnabled = true;
+            this.uxCharactersListBox.Location = new System.Drawing.Point(440, 12);
+            this.uxCharactersListBox.Name = "uxCharactersListBox";
+            this.uxCharactersListBox.Size = new System.Drawing.Size(178, 199);
+            this.uxCharactersListBox.TabIndex = 6;
+            // 
+            // treeView1
+            // 
+            this.treeView1.CheckBoxes = true;
+            this.treeView1.FullRowSelect = true;
+            this.treeView1.Location = new System.Drawing.Point(448, 20);
+            this.treeView1.Name = "treeView1";
+            treeNode1.Name = "BostonUprisingNode";
+            treeNode1.Text = "Boston Uprising";
+            treeNode2.Name = "TeamsNode";
+            treeNode2.Text = "Teams";
+            this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
+            treeNode2});
+            this.treeView1.Size = new System.Drawing.Size(121, 97);
+            this.treeView1.TabIndex = 7;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Image = ((System.Drawing.Image)(resources.GetObject("checkBox1.Image")));
+            this.checkBox1.Location = new System.Drawing.Point(448, 141);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(136, 56);
+            this.checkBox1.TabIndex = 8;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // uxMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(255, 223);
+            this.ClientSize = new System.Drawing.Size(630, 223);
+            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.treeView1);
+            this.Controls.Add(this.uxCharactersListBox);
+            this.Controls.Add(this.uxTeamsListBox);
             this.Controls.Add(this.uxSendMessage);
             this.Controls.Add(this.uxTimer);
             this.Controls.Add(this.uxMessage);
@@ -114,6 +181,10 @@
         private System.Windows.Forms.TextBox uxMessage;
         private System.Windows.Forms.TextBox uxTimer;
         private System.Windows.Forms.Button uxSendMessage;
+        private System.Windows.Forms.CheckedListBox uxTeamsListBox;
+        private System.Windows.Forms.CheckedListBox uxCharactersListBox;
+        private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

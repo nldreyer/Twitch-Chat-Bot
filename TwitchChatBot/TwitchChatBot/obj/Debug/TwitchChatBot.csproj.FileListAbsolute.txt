@@ -11,3 +11,17 @@ C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatB
 C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.application
 C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.exe.manifest
 C:\Users\Ewawi\Desktop\Chatter\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.application
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.csprojResolveAssemblyReference.cache
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.uxMainForm.resources
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.Properties.Resources.resources
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.csproj.GenerateResource.Cache
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.csproj.CoreCompileInputs.cache
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.exe
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.pdb
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.exe.config
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.exe.manifest
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.application
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.exe
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\bin\Debug\TwitchChatBot.pdb
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.exe.manifest
+C:\Users\dubdr\Source\Repos\Twitch-Chat-Bot\TwitchChatBot\TwitchChatBot\obj\Debug\TwitchChatBot.application

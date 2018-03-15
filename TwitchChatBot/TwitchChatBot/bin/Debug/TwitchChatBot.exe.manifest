@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchChatBot.exe" size="214952">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="TwitchChatBot.exe" size="224680">
       <assemblyIdentity name="TwitchChatBot" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3fzOoeRs36QPvm/27jv0gDLUMb65jDb26Dyt8p3OCBg=</dsig:DigestValue>
+        <dsig:DigestValue>wJSoNDKMqObiGOkHOsfWWIHlb9KrgJJQxZi6SgJdoNM=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
